@@ -1,0 +1,9 @@
+ {
+    "name": "pincar",
+    "build": {
+      "context": ".",
+      "dockerfile": "Dockerfile",
+      "target": "fe-dev"
+    }
+  
+  }
