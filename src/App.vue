@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
+import { SpeedInsights } from '@vercel/speed-insights/vue';
 import HelloWorld from './components/HelloWorld.vue'
 </script>
 
@@ -18,6 +19,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView />
+  <SpeedInsights />
 </template>
 
 <style scoped>
