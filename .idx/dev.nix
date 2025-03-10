@@ -1,7 +1,8 @@
 {pkgs}: {
   channel = "stable-24.05";
   packages = [
-    pkgs.nodejs_20
+    pkgs.nodejs_latest
+    pkgs.pnpm
   ];
   idx.extensions = [
     "vue.volar"
@@ -14,8 +15,7 @@
     previews = {
       web = {
         command = [
-          "npm"
-          "run"
+          "pnpm"
           "dev"
           "--"
           "--port"
